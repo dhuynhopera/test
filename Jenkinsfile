@@ -10,7 +10,7 @@ pipeline {
         script {
           awsCodeBuild(
             projectName: 'poco',
-            credentialsType: 'Jenkins',
+            credentialsType: 'jenkins',
             credentialsId: 'aws-codebuild',
             region: 'use-east-2',
             sourceControlType: 'project',
