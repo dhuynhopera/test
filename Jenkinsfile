@@ -12,10 +12,10 @@ pipeline {
             projectName: 'poco',
             credentialsType: 'jenkins',
             credentialsId: 'aws-codebuild',
-            region: 'use-east-2',
+            region: 'us-east-2',
             sourceControlType: 'project',
             sourceVersion: env.BRANCH_NAME,
-            buildSpecFile: 'ci/buildspec.build.yml'
+            buildSpecFile: 'buildspec.yml'
           )
         }
       }
