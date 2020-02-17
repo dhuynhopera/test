@@ -18,6 +18,7 @@ pipeline {
             buildSpecFile: 'ci/buildspec.build.yml'
           )
         }
+      }
     }
   }
 }
