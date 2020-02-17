@@ -1,7 +1,7 @@
 pipeline {
 	agent any
 	environment {
-		CI_SERVER = 'YES',
+		CI_SERVER = 'yes'
 		CI_COMMIT_HASH = '${GIT_COMMIT}'
 	}
 	stages {
